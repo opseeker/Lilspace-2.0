@@ -1,0 +1,56 @@
+[{
+    "id":0,
+    "heading":"What is an extranet?",
+    "post":"There's one more type of 'net' to consider, and it relates to enterprise collaboration with external users:<br/>* An extranet is a web portal that is accessible by an organization and its external vendors, partners, customers, or any other users that require access to restricted information.<br/><br/> With an extranet, the host organization manages the site administration and content, and provides controlled access to internal and external members. Some example use cases for an extranet include a partner or vendor portal, a customer community, or a franchise network."
+},
+{
+    "id":1,
+    "heading":"HTML - URL",
+    "post":"A hypertext document with its corresponding text and hyperlinks is written in HyperText Markup Language (HTML) and is assigned an online address called a Uniform Resource Locator (URL)."
+},
+{
+    "id":2,
+    "heading":"What's the difference between an intranet and the Internet?",
+    "post":"* The Internet is a globally-connected network of computers that enables people to share information and communicate with each other.<br/><br/> * An intranet, on the other hand, is a local or restricted network that enables people to store, organize, and share information within an organization. Besides the spelling and pronunciation (which might sound forced and awkward at times), <br/>there are key differences between the two, one of the most important being that an intranet is a platform that can be bought and sold (or built, in some cases), while the Internet is the underlying technology that enables its connectivity."
+},
+{
+    "id":3,
+    "heading":"Difference between Internet and WWW",
+    "post":"1. Internet : The internet is a globally connected network system facilitating worldwide communication and access to data resources through a huge collection of personal, public, business, academic and government networks. it's governed by agencies just like Internet Assigned Numbers Authority (or IANA) that establish universal protocols. <br/><br/>2. World Wide Web (WWW) : World Wide Web (WWW), byname Web, is leading information retrieval service of web (the worldwide computer network). Online gives users access to a huge array of documents that are connected to every other by means of hypertext or hypermedia links—i.e., hyperlinks, electronic connections that link related pieces of data so as to permit a user quick access to them. Hypertext allows the user to pick a word or phrase from text and thereby access other documents that contain additional information concerning that word or phrase. <br/><br/><table class='table-b'><tr><td>Internet</td><td>WWW</td></tr><tr><td>Internet is a global network of networks.</td><td>WWW stands for World Wide Web.</td></tr><tr><td>Internet is a means of connecting a computer to any other computer anywhere in the world.</td><td>WWW which is a collection of information which is accessed via the Internet.</td></tr><tr><td>Internet can be viewed as a big book-store.</td><td>Web can be viewed as a collection of books on that store.</td></tr><tr><td>Internet is primarily hardware based.</td><td>WWW is more software- oriented as compared to the internet.</td></tr><tr><td>Internet uses IP address.</td><td>WWW uses HTTP.</td></tr></table>"
+},
+{
+    "id":4,
+    "heading":"HTML",
+    "post":"HTML stands for Hyper Text Markup Language. HTML is the format in which you can put your information for display on the www.<br/> HTML file is a plain text file and all the HTML instructions are type inside angled brackets.<br/> These instructions are referred as tags."
+},
+{
+    "id":5,
+    "heading":"server",
+    "post":"Servers are computers with a 24-hour Internet connection that provide access to their files and programs. These can be but are not limited to educational institutions, commercial companies, organizations, government or military organizations, Internet access providers and various other computer networks of all sizes. "
+},
+{
+    "id":6,
+    "heading":"Internet Equipment",
+    "post":"To access the Internet, you need the following minimum configuration. You can sometimes make do with less but you'll notice shortcomings.<br/><br/><ul><li>A computer with at least 16 megabytes of RAM.</li> <li>A color monitor that displays at least 16-bit or thousands of colors.</li> <li>A modem with a speed of at least 28.8 bps.</li><li>A hard disk with plenty of storage space for the software you will use and all those files you'll be downloading.</li><li>Sound capabilities, stereo speakers to enjoy the multimedia world.</li><li>This may be obvious, but Before you buy a computer, be sure to check around. Prices vary greatly.</li></ul>"
+},
+{
+    "id":7,
+    "heading":"Web Browser",
+    "post":"A web browser is a software application which enables a user to display and interact with text, images, videos, music, games and other information typically located on a web page at a website on the World Wide Web or a local area network. <br/><br/>Text and images on a web page can contain hyperlinks to other web pages at the same or different website. Web browsers allow a user to quickly and easily access information provided on many web pages at many web sites by traversing these links. For Ex: Internet Explorer, Fire Fox etc."
+},
+{
+    "id":8,
+    "heading":"Website",
+    "post":"A website is a collection of related web pages, images, videos or other digital assets that are hosted on one web server, usually accessible via the Internet. <br/><br/>For Ex : <br/>www.santabanta.com, www.pasighat.com, www.micegroup.net, www.arunachalpradesh.nic.in, www.cbseresults.nic.in"
+},
+{
+    "id":9,
+    "heading":"Web Server",
+    "post":"A computer program that is responsible for accepting request for website from a client computer and serving them along with data contents, which usually are web pages such as HTML documents and linked objects (images, etc.)."
+},
+{
+    "id":10,
+    "heading":"URL",
+    "post":"In computing, a Uniform Resource Locator (URL) is a type of Uniform Resource Identifier (URI) that specifies where an identified resource is available and the mechanism for retrieving it. <br/><br/>In some cases URL has also stood (for comedy effect) for Ultimate Resource Locator."
+}
+]

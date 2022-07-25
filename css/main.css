@@ -1,0 +1,25 @@
+.rotate-90p {
+    transform: rotate(90deg);
+}
+
+.border-r50 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.c-g p {
+    color: rgba(0, 255, 0, 0.714) !important
+}
+
+.table-b {
+    border: 1px solid #555;
+    font-size: .6em !important
+}
+
+.table-b td {border: 1px solid #555;border-collapse: collapse;padding: 5px;}
+
+.table-b tr:nth-child(1) {
+    color: red;
+    text-align: center;
+}

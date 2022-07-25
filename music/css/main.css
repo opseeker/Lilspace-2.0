@@ -1,0 +1,52 @@
+.music-list ul li {
+  list-style: none;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.ui-img {
+  border: 1px solid #333;
+  border-radius: 50%;
+  opacity: .6;
+  background-color: #000;
+}
+
+.ui-img.active {
+  -webkit-animation: rotate-a 4s linear infinite;
+          animation: rotate-a 4s linear infinite;
+}
+
+@keyframes rotate-a {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.music-list {
+  overflow-y: scroll;
+  z-index: -1;
+}
+
+.mb-10 {margin-bottom: 20%;}
+
+.start-10 {left: 25%}
+
+.mt-10 {margin-top: 40vw}
+
+.mode-change-btn {
+  border-radius: 50%;
+  height: 30px; width: 30px;
+  background-image: radial-gradient(#eb6534,#6a66a3,#000 80%)
+}

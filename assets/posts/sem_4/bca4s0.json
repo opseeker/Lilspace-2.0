@@ -1,0 +1,9 @@
+[{
+    "id":0,
+    "heading":"Classical Waterfall Model:",
+    "content":"The classical waterfall model is the basic software development life cycle model. It is very simple model. It is also known as a linear-sequential life cycle model. Earlier this model was very popular but nowadays it is not used. But it is very important because all the other software development life cycle models are based on this model. We therefore need to first understand the classical waterfall model well, in order to be able to develop proper understanding of other life cycle models.  It is not a practical model because it cannot be used in actual software development projects. Thus, this model can be considered to be a theoretical way of developing software. The classical waterfall model divides the life cycle into a set of phases. In this model one phase can be started after the completion of the previous phase. That is the output of one phase will be the input to the next phase. Thus the development process is seen as following steadily downwards like a waterfall through several phases. Here the phases do not overlap with each other.",
+    "date-created":"2022-july-24",
+    "at":"tsk",
+    "sem":4,
+    "college":"ct college"
+}]

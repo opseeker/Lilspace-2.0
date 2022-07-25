@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lillspace 2.0</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,maximum-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <style>
+        ::-webkit-scrollbar {display: none;}
+        html {user-select: none;-moz-user-select: none;-ms-user-select: none;-webkit-user-select: none;}
+    </style>
+
+<script src="js/sweetAlert.js"></script>
+</head>
+
+<body class="bg-black">
+<div class="root-elem c-g">
+
+    <nav class="text-bg-success p-3 m-0 w-100 h-auto">
+        <div class="menu d-flex">
+            <h2 class="text-light">Lillspace-2.0</h2>
+            <div class="list-menu-btn position-absolute end-0 top-0 mt-3 me-2">
+                <div class="btn-group">
+                    <button type="button" class="btn dropdown" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                      <li><button class="dropdown-item" type="button">Settings</button></li>
+                      <li><button class="dropdown-item" type="button">Articles</button></li>
+                      <li><button class="dropdown-item" type="button">The way of life</button></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="post py-5 visually-hidden">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="topic h2 mb-5 text-center fw-bolder text-decoration-underline text-light-80 border py-2">
+                            Iterative Waterfall Model in software engineering
+                        </h2>
+                        <p class="lead text-light-50 fs-2">
+                            Iterative Waterfall Model is the extension of the Classical Waterfall model. 
+                            In a practical software development work, it is not possible to strictly follow the classical waterfall model. 
+                            In this context, we can view the Iterative waterfall model as making necessary changes to the classical waterfall 
+                            model to make it usable in practical software development projects. This model is almost same as the classical waterfall 
+                            model except some changes are made to improve the performance of the software development. The iterative waterfall model provides 
+                            feedback paths from every phase to its previous phases, which is the main difference from the classical waterfall model. 
+                            When errors are detected at some later phase, these feedback paths allow correcting errors committed by programmers during some phase. 
+                            The feedback path allows the phase to be reworked in which errors are committed and these changes are reflected in the later phases. 
+                            There is no feedback path provided for feasibility study phase, so if any change is required in this phase then iterative model doesn't 
+                            have scope for modification or making corrections. Feedback paths introduced by the iterative waterfall model are shown in the figure below.
+                        </p>
+                        <img src="./assets/IWM.png" alt="image_1" class="w-100 bg-opacity-75">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post py-5 visually-hidden">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="topic h2 mb-5 text-center fw-bolder text-decoration-underline text-light-80 border py-2">
+                            Software Life Cycle Models in Software Engineering
+                        </h2>
+                        <p class="lead text-light-50 fs-2">
+                            A software life cycle model (also termed process model) is a pictorial and diagrammatic representation of the software life cycle. 
+                            It describes the different activities that need to be carried out to develop a software product and the sequencing of these activities. 
+                            A life cycle model graphically represents the different phases of a life cycle and their ordering accompanied by with textual description. 
+                            Additionally, it may represent the various types of the activities carried out during a phase and the documents produced. We can therefore, 
+                            define a life cycle model as follows: A software life cycle model is a descriptive and diagrammatic representation of the software life cycle. 
+                            In other words, a life cycle model maps the various activities performed on a software product from its inception to retirement. Different life 
+                            cycle models may map the necessary development activities to phases in different ways. Thus, no matter which life cycle model is followed, 
+                            the essential activities are included in all life cycle models though the action may be carried out in distinct orders in different life cycle models.
+                        </p>
+                        <div class="p-4"></div>
+                        <h2 class="text-center py-3 text-light-50">
+                            Need of Life Cycle Models<br/>
+                            <span class="text-dark-50">(Why use a Life Cycle Model?)</span>
+                        </h2>
+                        <p class="lead text-light-50">
+                            A well-defined life cycle model helps to produce good quality products. A good software engineer should have enough knowledge on how to choose the SDLC model 
+                            based on the project context and the business requirements. It may be required to choose the right SDLC model according to the specific concerns and requirements 
+                            of the project to ensure its success. The development team must determine a suitable life cycle model for a particular plan and then observe to it. The primary benefit of 
+                            using a life cycle model is that it helps to developed a software in a systematic and disciplined manner When a team is developing a software product, there must be a clear 
+                            understanding among team representative about when and what to do. Otherwise, it would point to chaos and project failure. SDLC models might have a different approach but the 
+                            basic phases and activity remain the same for all the models. A number of different SDLC models are used today to guide professionals through their project-based work.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- respective script -->
+    <div data-user-cards-container></div>
+    <template class="col" data-user-template>
+    <div class="post py-5">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                        <div>
+                            <h2 data-header class="bcawt-head topic h2 mb-5 text-center fw-bolder text-decoration-underline text-light-80 border py-2">
+                            </h2>
+                            <p data-body class="lead text-light-50 fs-2 bcawt-content">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script>
+        const userCardTemplate = document.querySelector("[data-user-template]")
+        const userCardContainer = document.querySelector("[data-user-cards-container]")
+        let items=[]
+        fetch("./assets/posts/sem_4/bca4swt0.json")
+        .then(res => res.json())
+        .then(data => {
+            items=data.map(item=>{
+                const card =userCardTemplate.content.cloneNode(true).children[0]
+                const header = card.querySelector("[data-header]")
+                const body = card.querySelector("[data-body]")
+                header.innerHTML += item.heading
+                body.innerHTML += item.post
+                userCardContainer.append(card)
+                return{heading: item.heading, post:item.post}
+            })
+        })
+    </script>
+    
+</div>
+
+<div class="syllabus visually-hidden">
+    <div class="sem4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!-- <img src="./assets/astu logo.jpeg" alt="ASTU-LOGO" class="border-r50"> -->
+                    <table>
+                        <tr>
+                            
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
